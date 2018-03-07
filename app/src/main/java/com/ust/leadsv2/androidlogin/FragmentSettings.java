@@ -7,13 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by jessi on 2/12/2018.
- */
-
 public class FragmentSettings extends Fragment {
 
     View view;
+
     public FragmentSettings() {
     }
 

@@ -27,7 +27,7 @@ public class SigninActivity extends AppCompatActivity {
     }
 
     public void goToMainScreen (View view) {
-        Intent intent = new Intent(this, MainScreen.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }

@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_leads_launcher"
-        android:label="@string/app_name"
+        android:label="LEAdS"
         android:roundIcon="@mipmap/ic_leads_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -19,7 +19,9 @@
         <activity android:name=".SigninActivity" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".SignupActivity" />
-        <activity android:name=".MainScreen"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"></activity>
     </application>
 
 </manifest>
